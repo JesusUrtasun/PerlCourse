@@ -8,21 +8,20 @@ Find the content of the course:
 
 ## Chapter 1
 
+- First steps to Perl.
+- Data types in Perl.
 
 ## Chapter 2
 
+- Basic math operators.
+- Logical operators.
 
 ## Chapter 3
-
 
 ## Chapter 4
 
 ## Chapter 5
--Subroutines and functions
 
 ## Chapter 6
-- File manipulation
 
-## Chapter 7 - Advanced mathemtatical computations
-- Object Oriented Programming
-- Inheritance
+## Chapter 7
