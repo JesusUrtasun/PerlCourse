@@ -1,3 +1,7 @@
+# Perl Course
+# Jesus Urtasun - 2020/21
+# Chapter 2 - Exercise 2
+
 use strict;
 use warnings;
 use diagnostics;
@@ -5,6 +9,8 @@ use diagnostics;
 use feature "say";
 
 use feature "switch";
+
+print("Chapter2\n");
 
 # False in Perl
 # undef 0 0.0 "" "0"
