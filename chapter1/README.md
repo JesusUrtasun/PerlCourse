@@ -4,7 +4,7 @@
 
 ### Jesús Urtasun Elizari - University of Milan - 2020/21
 
-**Subject:** Basic exercises for C++ programming.
+**Subject:** Basic exercises for Perl programming.
 
 Before starting we suggest to create a folder for Chapter 1 in which you can save 
 all files that will be used for the exercises.
