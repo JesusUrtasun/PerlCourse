@@ -12,20 +12,12 @@ use feature "switch";
 
 print("Chapter2\n");
 
-# False in Perl
-# undef 0 0.0 "" "0"
-
-# Conditional logic operators
-# == != < > <= >=
-
-# Boolean operators
-# ! && ||
-
-# Check if legal to drive
+# Define attributes of a given user
 my $age = 80;
 my $is_not_intoxicated = 1;
 my $age_last_exam = 16;
 
+# Check the integer age and boolean intoxicated
 if ($age < 16) {
     say "You can't drive";
 } elsif (!$is_not_intoxicated) {
@@ -34,7 +26,7 @@ if ($age < 16) {
     say "You can drive";
 }
 
-# Add boolean operators
+# Combine conditional operators
 if (($age >= 1) && ($age < 16)) {
     say "You can't drive";
 } elsif (!$is_not_intoxicated) {
@@ -45,19 +37,17 @@ if (($age >= 1) && ($age < 16)) {
     say "You can drive";
 }
 
-# Comparison op with strings
-# qr ne lt gt 
-
+# Comparison strings
 if ("a" eq "b") {
     say "a equals b";    
 } else {
     say "a does no equal b";
 }
 
-# oposite of iff
+# Unless operator
 unless(!$is_not_intoxicated) {
     say "Get sober";
 }
 
-# Ternary operator (?)
+# Ternary operator
 say (($age > 18) ? "Can Vote" : "Can't vote");

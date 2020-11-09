@@ -12,14 +12,16 @@ use feature "switch";
 
 print("Chapter2\n");
 
+# Print integer values from 0 to 10
+say "\n1. For loop: ";
 for (my $i = 0; $i < 10; $i++) {
     say $i;
 }
 
 my $i = 1;
 
-say "while";
-# Print only odd numbers
+# Print only odd numbers using a while loop
+say "\n2. While loop:";
 while ($i < 10) {
     if ($i % 2 == 0) {
         $i++;
@@ -30,7 +32,8 @@ while ($i < 10) {
     $i++;
 }
 
-say "Do while";
+# Print only odd numbers using a while loop
+say "\n3. Do while:";
 my $i = 1;
 my $lucky_num = 7;
 my $guess;
@@ -44,6 +47,8 @@ say "You guessed 7";
 
 my $age_old = 18;
 
+# Loops and conditionals
+say "\n4. Loops and conditionals:";
 given ($age_old) {
     when ($_ > 16) {
         say "Drive";
@@ -58,17 +63,15 @@ given ($age_old) {
     }
 }
 
-
+# Loops and conditionals
+say "\n5. Strings and concatenate:";
 # Loop with strings
-# Strings are scalars!
-
 my $long_string = "Random long string";
 say "Length of String ", length $long_string;
 printf("Long is at %d \n", index $long_string, "long");
 printf("Last g is at %d \n", rindex $long_string, "g");
 
 # Concatenate
-
 $long_string = $long_string . "isn\'t that long";
 say "Index 7 through 10 ", substr $long_string, 7, 4;
 

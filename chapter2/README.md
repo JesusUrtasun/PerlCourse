@@ -40,37 +40,41 @@ say "sqrt 9 = ", sqrt 9;
 3. Useful shortcuts for increasing, decreasing and print.
 
 
-## Exercise 2 - Data types in Perl
+## Exercise 2 - Part I: Conditionals and logical operators
 
-Perl has three built-in data types: scalars, arrays and "hashes". A scalar is a single string
-of any size, limited only by the available memory, number, or a reference to something, an array is a vector or list of scalars,
-and hashes will be described in further chapters.
-
-1. Define the variable name as a scalar.
-
-2. Define an array containing the variables age and street.
-
-3. Define a string gathering all information.
-
-Hint: the program should have the following structure.
+Build a program in Perl that decides if a given user is able to drive. Use the following values to start.
 ```perl
-# Declare variables
-my $name = 
-my ($age, $street) = 
-my $my_info = 
-
-# Print on screen
-print $my_info;
+# Check if legal to drive
+my $age = 80;
+my $is_not_intoxicated = 1;
+my $age_last_exam = 16;
 ```
 
-## Exercise 3 - Print on Perl
+1. If the age is smaller than 16, print "You can't drive".
 
-1. Define a variable bunch_of_info containing a string over multiple lines.
+2. If the age is smaller than 16 but the boolean intoxicated is true, print "You can't drive".
 
-2. Print it with the say operator.
+3. For any other case, print "You can drive"
 
-3. Define an integer variable big_int = 1000000 and a float one big_float = .0000000000000001.
 
-4. Print them with the printf() command.
+## Exercise 2 - Part II: Combining conditions
 
-5. Define two integers first = 1 and second = 2, and switch their values with the switch operator.
+1. If the age is between 1 and 16, print "You can't drive".
+
+2. If the the boolean is_not_intoxicated is false, print "You can't drive".
+
+3. If the age is at least 80, or larger than 100, or the time from the last exam is greater than 5 years, print "You can't drive".
+
+4. For any other case, print "You can drive"
+
+5. Compare strings, unless operator and ternary operator
+
+## Exercise 3
+
+1. Print the number 0 to 10 using a for loop.
+
+2. Print only the odd numbers up to a given maximum using a while loop.
+
+3. Ask the user for a number fro 0 to 10 until he guesses the lucky one using a do while loop.
+
+4. Strings and concatenation
